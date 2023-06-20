@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Omah Figma</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ================ Font Awwsome Link ================= -->
+		<script
+			src="https://kit.fontawesome.com/ca7886ccf6.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- ================= Tailwind CSS Link ================= -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="tailwind.config.js"></script>
+	</head>
+	<body>
+		<!-- ================== Nav Bar Starts Here ================= -->
+		<nav class="py-[20px] absolute left-0 top-0 w-full">
+			<div class="sm:max-w-container px-2 md:px-0 mx-auto">
+				<div class="flex justify-between items-center">
+					<div>
+						<a href="#">
+							<img src="images/logo.png" alt="logo" />
+						</a>
+					</div>
+					<div class="block sm:hidden">
+						<i class="fa-solid fa-bars"></i>
+					</div>
+					<div class="hidden sm:block">
+						<ul class="flex gap-x-[50px] lg:gap-x-[100px]">
+							<li>
+								<a
+									href="#"
+									class="text-base text-primary font-light font-poppins capitalize relative after:absolute after:content-[''] after:bg-hithlighter after:h-[3px] after:w-[23px] after:rounded after:bottom-[-11px] after:left-[50%] after:translate-x-[-50%] after:opacity-0 transition-all ease-linear duration-1000 hover:text-[red] hover:after:opacity-100"
+									>Home</a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-base text-primary font-light font-poppins capitalize relative after:absolute after:content-[''] after:bg-hithlighter after:h-[3px] after:w-[23px] after:rounded after:bottom-[-11px] after:left-[50%] after:translate-x-[-50%] after:opacity-0 transition-all duration-1000 hover:text-[red] hover:after:opacity-100"
+									>About</a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-base text-primary font-light font-poppins capitalize relative after:absolute after:content-[''] after:bg-hithlighter after:h-[3px] after:w-[23px] after:rounded after:bottom-[-11px] after:left-[50%] after:translate-x-[-50%] after:opacity-0 transition-all duration-1000 hover:text-[red] hover:after:opacity-100"
+									>Properties <i class="fa-solid fa-angle-down"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="#"
+									class="text-base text-primary font-light font-poppins capitalize relative after:absolute after:content-[''] after:bg-hithlighter after:h-[3px] after:w-[23px] after:rounded after:bottom-[-11px] after:left-[50%] after:translate-x-[-50%] after:opacity-0 transition-all duration-1000 hover:text-[red] hover:after:opacity-100"
+									>Contact</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- ================ Banner Starts Here ================= -->
+		<section class="bg-bannerbg pt-[130px] pb-[60px]">
+			<div class="max-w-container mx-auto">
+				<div class="flex">
+					<div class="w-[766px]">
+						<h1
+							class="font-poppins font-semibold text-[56px] text-primary leading-normal pt-[62px]"
+						>
+							Temukan Hunian Keluarga Sesuai Keinginanmu
+						</h1>
+						<p
+							class="font-poppins font-light text-base leading-8 pt-[24px] w-[544px] text-secondary opacity-0.6"
+						>
+							Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
+							lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+						</p>
+						<div
+							class="w-[675px] h-[70px] rounded-[16px] bg-white overflow-hidden mt-[56px] relative"
+						>
+							<input
+								class="w-full h-full rounded-[16px] py-[23px] pl-[56px] text-base outline-0"
+								type="text"
+								placeholder="Search location, properties, residental group"
+							/>
+							<button
+								class="absolute right-[14px] top-[50%] translate-y-[-50%] bg-primary text-white rounded-[10px] py-[13px] px-[41px]"
+							>
+								Search
+							</button>
+							<div class="absolute left-[30px] top-[25px]">
+								<i class="text-[20px] text-[#000] fa-solid fa-location-dot"></i>
+							</div>
+						</div>
+						<div class="flex justify-between items-center w-[580px]">
+							<div></div>
+						</div>
+					</div>
+					<div class="w-[400px]">
+						<img src="images/banner.png" alt="bannerimg" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================= Property Part Starts Here ================= -->
+		<section>
+			<div class="max-w-container mx-auto py-[100px]">
+				<h2
+					class="font-poppins font-semibold text-4xl w-[533px] leading-[54px] mb-[64px]"
+				>
+					Tahapan Pembelian Properti yang Mudah dan Cepat
+				</h2>
+				<div class="flex justify-between items-center">
+					<div
+						class="flex justify-between items-center w-[300px] border-white rounded-[10px] relative after:absolute after:content-[''] after:rounded after:top-[17px] after:left-0 after:h-[30px] after:w-[8px] after:bg-hithlighter hover:border-inherit rounded-[10px] transition-all ease-linear duration-300 cursor-pointer"
+					>
+						<div class="py-[20px] pl-[33px] pr-[33px]">
+							<div class="flex justify-between items-center pb-[8px]">
+								<h5 class="font-poppins font-medium text-base text-primary">
+									Pilih Properti
+								</h5>
+								<span
+									class="font-poppins font-medium text-base text-hithlighter"
+									>01</span
+								>
+							</div>
+							<p
+								class="pb-[60px] font-poppins font-light text-[16px] text-secondary leading-[30px]"
+							>
+								Cari properti yang diinginkan sesuai dengan kriteria anda dan
+								keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+								lanjut di sini
+							</p>
+							<a
+								class="font-poppins font-medium text-base leading-[16px]"
+								href="#"
+								><span class="bg-[#D6D5C7] pl-[5px] pb-[1px]">Bac</span>a lebih
+								Lanjut<i class="fa-solid fa-arrow-right-long ml-2"></i
+							></a>
+						</div>
+					</div>
+					<div
+						class="flex justify-between items-center w-[300px] border-white rounded-[10px] relative after:absolute after:content-[''] after:rounded after:top-[17px] after:left-0 after:h-[30px] after:w-[8px] after:bg-hithlighter hover:border-inherit rounded-[10px] transition-all ease-linear duration-300 cursor-pointer"
+					>
+						<div class="py-[20px] pl-[33px] pr-[33px]">
+							<div class="flex justify-between items-center pb-[8px]">
+								<h5 class="font-poppins font-medium text-base text-primary">
+									Proses Booking
+								</h5>
+								<span
+									class="font-poppins font-medium text-base text-hithlighter"
+									>02</span
+								>
+							</div>
+							<p
+								class="pb-[82px] font-poppins font-light text-[16px] text-secondary leading-[30px]"
+							>
+								Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan
+								unit properti tertentu.
+							</p>
+							<a
+								class="font-poppins font-medium text-base leading-[16px]"
+								href="#"
+								><span class="bg-[#D6D5C7] pl-[5px] pb-[1px]">Bac</span>a lebih
+								Lanjut<i class="fa-solid fa-arrow-right-long ml-2"></i
+							></a>
+						</div>
+					</div>
+					<div
+						class="flex justify-between items-center w-[300px] border-white rounded-[10px] relative after:absolute after:content-[''] after:rounded after:top-[17px] after:left-0 after:h-[30px] after:w-[8px] after:bg-hithlighter hover:border-inherit rounded-[10px] transition-all ease-linear duration-300 cursor-pointer"
+					>
+						<div class="py-[20px] pl-[33px] pr-[33px]">
+							<div class="flex justify-between items-center pb-[8px]">
+								<h5 class="font-poppins font-medium text-base text-primary">
+									KPR dan Sertifikasi
+								</h5>
+								<span
+									class="font-poppins font-medium text-base text-hithlighter"
+									>03</span
+								>
+							</div>
+							<p
+								class="pb-[50px] font-poppins font-light text-[16px] text-secondary leading-[30px]"
+							>
+								Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika
+								diperlukan dan dilanjutkan proses sertifkasi HGB.
+							</p>
+							<a
+								class="font-poppins font-medium text-base leading-[16px]"
+								href="#"
+								><span class="bg-[#D6D5C7] pl-[5px] pb-[1px]">Bac</span>a lebih
+								Lanjut<i class="fa-solid fa-arrow-right-long ml-2"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================= Residen Part Starts Here ================= -->
+		<section class="bg-[#EEEDDE] pt-[68px] pb-[163px]">
+			<div class="max-w-container mx-auto">
+				<h3 class="font-poppins font-medium text-base leading-[24px] text-hithlighter">Pilihan konsumen</h3>
+				<h2 class="font-poppins font-semibold text-[36px] leading-[54px] text-primary">Residen Favorit</h2>
+				<div class="flex gap-x-[64px] mt-[64px]">
+					<div class="w-[1300px]">
+						<div class="w-[330px] h-[455px] rounded-[10px] overflow-hidden object-cover absolute hover:z-50 hover:scale-[1.75] transition-all ease-linear duration-300"><img src="images/resident1.png" alt="res"></div>
+						<div class="w-[358px] h-[490px] rounded-[10px] overflow-hidden object-cover relative top-[60px] left-[160px] shadow-myshadow hover:z-50 hover:scale-[1.75] transition-all ease-linear duration-300"><img src="images/resident2.png" alt="res"></div>
+					</div>
+					<div>
+						<h2 class="font-poppins font-semibold text-[36px] leading-[54px] text-primary">Bangunan yang dirancang oleh Aristektur Handal</h2>
+						<p class="font-poppins font-light text-base leading-[30px] mt-[24px] mb-[48px]">Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.</p>
+						<div class="flex gap-x-[48px]">
+							<a class="py-[13px] px-[41px] border border-black rounded-[10px] font-poppins font-semibold text-base leading-[24px] text-primary hover:bg-primary hover:text-white transition-all ease-linear duration-300" href="tel:+6281232936733"><i class="fa-solid fa-phone mr-[12px]"></i>Hubungi Kami</a>
+							<a class="py-[13px] px-[41px] border border-black rounded-[10px] font-poppins font-semibold text-base leading-[24px] text-primary hover:bg-primary hover:text-white transition-all ease-linear duration-300" href="">Explore lebih banyak</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- ================= Auditor Part Starts Here ================ -->
+		<section class="py-[68px]">
+			<div class="max-w-container mx-auto">
+				<div class="mb-16">
+					<h3 class="font-poppins font-medium text-base leading-[24px] text-hithlighter">Pilihan Auditor</h3>
+					<h2 class="font-poppins font-semibold text-[36px] leading-[54px] text-primary">Residen Berbagai Kota</h2>
+				</div>
+		    <!-- ===================== Slick Slider Starts Here ================ -->
+				<div class="flex gap-x-[49px] multiple-items">
+					<div>
+						<div class="w-[357px] h-[454px] object-cover overflow-hidden mb-[16px]">
+							<img src="images/image 5.png" alt="img1">
+						</div>
+						<div class="font-poppins text-primary">
+							<h3 class="font-medium text-[24px] leading-[36px] mb-[8px]">Magnolia Surabaya</h3>
+							<p class="font-light text-base leading-[30px]">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+						</div>
+					</div>
+					<div>
+						<div class="w-[357px] h-[454px] object-cover overflow-hidden mb-[16px]">
+							<img src="images/image 6.png" alt="img1">
+						</div>
+						<div class="font-poppins text-primary">
+							<h3 class="font-medium text-[24px] leading-[36px] mb-[8px]">Pinang Residences</h3>
+							<p class="font-light text-base leading-[30px]">Jl. Deplu Raya No.16 RT.5, RW.003
+								Bintaro, Pesanggrahan, Jakarta Selatan 12330</p>
+						</div>
+					</div>
+					<div>
+						<div class="w-[357px] h-[454px] object-cover overflow-hidden mb-[16px]">
+							<img src="images/image 5.png" alt="img1">
+						</div>
+						<div class="font-poppins text-primary">
+							<h3 class="font-medium text-[24px] leading-[36px] mb-[8px]">South Grove</h3>
+							<p class="font-light text-base leading-[30px]">J1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440</p>
+						</div>
+					</div>
+				</div>
+		    <!-- ===================== Slick Slider Ends Here ================ -->		
+			</div>
+		</section>
+		<!-- ================= Hubungi Kami Part Starts Here ================ -->
+		<section class="bg-[#EEEDDE] py-[48px]">
+			<div class="max-w-container mx-auto">
+				<div class="flex justify-between items-center">
+					<div>
+						<h3
+							class="pb-[63px] font-poppins font-semibold text-[36px] leading-[54px] text-primary"
+						>
+							Hubungi Kami
+						</h3>
+						<div
+							class="flex justify-between items-center w-[550px] gap-x-[48px]"
+						>
+							<div class="border border-[#FF752733] rounded-[10px] px-6 py-6">
+								<div class="flex gap-x-[22px] items-center">
+									<div>
+										<i class="fa-solid fa-phone text-[48px]"></i>
+									</div>
+									<div
+										class="font-poppins font-medium text-[16px] leading-[24px] text-primary"
+									>
+										<p>Call</p>
+										<p>+6281232936733</p>
+									</div>
+								</div>
+								<a
+									class="flex justify-center items-center px-[61px] py-[13px] bg-[#FF752733] mt-6 rounded-[10px] text-hithlighter font-poppins font-semibold text-[16px] leading-6 hover:bg-hithlighter hover:text-[#EEEDDE] transition-all ease-linear duration-500"
+									href="tel:+6281232936733"
+									>Call Now</a
+								>
+							</div>
+							<div class="border border-[#FF752733] rounded-[10px] px-6 py-6">
+								<div class="flex gap-x-[22px] items-center">
+									<div>
+										<i class="fa-solid fa-envelope text-[48px]"></i>
+									</div>
+									<div
+										class="font-poppins font-medium text-[16px] leading-[24px] text-primary"
+									>
+										<p>email</p>
+										<p>omahindev@gmail.com</p>
+									</div>
+								</div>
+								<a
+									class="flex justify-center items-center py-[13px] px-[20px] bg-[#FF752733] mt-6 rounded-[10px] text-hithlighter font-poppins font-semibold text-[16px] leading-6 hover:bg-hithlighter hover:text-[#EEEDDE] transition-all ease-linear duration-500"
+									href="mailto:omahindev@gmail.com"
+									>Email Now</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="pl-[169px]">
+						<h3
+							class="pb-[63px] font-poppins font-semibold text-[36px] leading-[54px] text-primary pl-[20px]"
+						>
+							Penghargaan
+						</h3>
+						<div class="flex items-center gap-x-[32px]">
+							<a href="#"><img src="images/image 8.png" alt="img" /></a>
+							<a href="#"><img src="images/image 9.png" alt="img" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================= Footer Part Starts Here ================= -->
+		<section class="bg-primary py-[31px]">
+			<div class="max-w-container mx-auto">
+				<div class="flex justify-between items-center">
+					<div>
+						<a href="#"><img src="images/logo2.png" alt="logo" /></a>
+					</div>
+					<div
+						class="flex justify-between items-center gap-x-[64px] text-white text-[24px]"
+					>
+						<a href="#">
+							<i class="fa-brands fa-square-instagram"></i>
+						</a>
+						<a href="#">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+						<a href="#">
+							<i class="fa-brands fa-tumblr"></i>
+						</a>
+						<a href="#">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================== Jquery Library Cdn link ================= -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+		<!-- ==================== Custom JS Link ================= -->
+		<script src="js/index.js"></script>
+	</body>
+</html>
